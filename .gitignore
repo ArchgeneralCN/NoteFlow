@@ -1,0 +1,25 @@
+# Runtime and generated application data
+backend/data/
+frontend/dist/
+
+# JavaScript and Python environments
+frontend/node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local configuration and tooling
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.agents/
+.codex/
+*.ses
+:memory:.ses
+
+# OS/editor files
+.DS_Store
+Thumbs.db

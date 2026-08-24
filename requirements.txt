@@ -1,0 +1,3 @@
+# NoteFlow 的核心后端只使用 Python 标准库。
+# 推荐使用 pyproject.toml 安装可选依赖：
+# python -m pip install -e '.[ocr]'
